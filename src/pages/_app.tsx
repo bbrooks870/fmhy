@@ -40,6 +40,18 @@ export default function App({ Component, pageProps }: AppProps) {
               fontSans.className
             )}
           >
+            <Head>
+                {/* Google Analytics tracking code */}
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-S5DHK66LCD"></script>
+                <script>
+                  {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-S5DHK66LCD');
+                  `}
+                </script>
+              </Head>
             <Notifications />
             <Navbar />
             <div className="flex-1 flex overflow-y-scroll">
