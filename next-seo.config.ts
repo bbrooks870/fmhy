@@ -1,12 +1,12 @@
 export const SEO = {
-  title: "FreeMediaHeckYeah",
+  title: "Free Stuffs - The Largest collection of Free stuff on the Internet!",
   description: "The Largest collection of Free stuff on the Internet! | FMHY",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "FMHY",
+    url: "Free Stuffs",
     // // url: "https://www.fmhy.tk/",
-    siteName: "FreeMediaHeckYeah",
+    siteName: "Free Stuffs",
     images: [{ url: "https://fmhy.tk/assets/logo.png" }],
   },
   // canonical:"https://www.fmhy.tk/"
@@ -18,7 +18,7 @@ export const SEO = {
     },
     {
       name: "application-name",
-      content: "FreeMediaHeckYeah",
+      content: "Free Stuffs",
     },
   ],
 
